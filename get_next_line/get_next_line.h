@@ -6,14 +6,17 @@
 /*   By: dickklouwer <tklouwer@student.codam.nl>      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2020/12/07 10:23:38 by dickklouwer   #+#    #+#                 */
-/*   Updated: 2020/12/10 20:36:08 by dickklouwer   ########   odam.nl         */
+/*   Updated: 2020/12/11 15:39:54 by tklouwer      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE
 # define GET_NEXT_LINE
 
-# define BUFFER_SIZE 32
+# define BUFFER_SIZE    32
+# define GNL_ERROR      -1
+# define EOF            0
+# define READING        1
 
 #include <fcntl.h>
 #include <stdio.h>
